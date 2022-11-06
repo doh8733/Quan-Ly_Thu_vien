@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ThuThu"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_Thuthu" />
+
+        <item
+            android:id="@+id/nav_PhieuMuon"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_QuanlyPhieuMuon" />
+        <item
+            android:id="@+id/nav_loaiSach"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_LoaiSach" />
+        <item
+            android:id="@+id/nav_quanLySach"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_Sach" />
+
+        <item
+            android:id="@+id/nav_thanhVien"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_thanhVien" />
+    </group>
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/nav_thongKeSach"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_thongKeSach" />
+        <item
+            android:id="@+id/nav_doanhThu"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_doanhThu" />
+
+        <item
+            android:id="@+id/nav_DoiMatKhau"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_doiMatKhau" />
+
+        <item
+            android:id="@+id/navDangXuat"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_DangXuat" />
+    </group>
+    <group />
+
+</menu>

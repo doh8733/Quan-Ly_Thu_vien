@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DoiMatKhauFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_huyLuuMatKhauMoi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="73dp"
+            android:layout_marginEnd="55dp"
+            android:background="#918F8F"
+            android:text="Hủy"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textinput13" />
+
+        <TextView
+            android:id="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đổi mật khẩu"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="259dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edittext11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_matKhauCu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu cũ" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:passwordToggleEnabled="true"
+            android:id="@+id/edittext12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edittext11">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_matKhauMoi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Mật khẩu mới" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:passwordToggleEnabled="true"
+            android:id="@+id/textinput13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edittext12">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_matKhauMoi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Nhập lại mật khẩu mới" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button_luuMatKhauMoi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="73dp"
+            android:background="#918F8F"
+            android:text="Lưu"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textinput13" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

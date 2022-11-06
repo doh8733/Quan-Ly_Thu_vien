@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="16dp"
+    android:id="@+id/cardThanhVien">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgSach"
+            android:layout_width="123dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/emthree"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvMaSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:text="TextView"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imgSach"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTenSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:text="TextView"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imgSach"
+            app:layout_constraintTop_toBottomOf="@+id/tvMaSach" />
+
+        <TextView
+            android:id="@+id/tvMaloai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textSize="15sp"
+            app:layout_constraintStart_toEndOf="@+id/imgSach"
+            app:layout_constraintTop_toBottomOf="@+id/tvTenSach" />
+
+        <TextView
+            android:id="@+id/tvGiaThue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="12dp"
+            android:text="TextView"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMaloai" />
+
+
+
+        <TextView
+            android:id="@+id/tvTLS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="81dp"
+            app:layout_constraintStart_toEndOf="@+id/tvMaloai"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvGiaKhuyenMai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="232dp"
+            android:layout_marginTop="12dp"
+            android:text="TextView"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMaloai"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

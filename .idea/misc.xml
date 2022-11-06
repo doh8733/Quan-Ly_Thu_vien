@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/activity_login.xml" value="0.24010416666666667" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_add.xml" value="0.27638190954773867" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_add_loaisach.xml" value="0.14864864864864866" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_add_sach.xml" value="0.264" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_add_thuthu.xml" value="0.2" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_sua_phieumuon.xml" value="0.264" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_sua_sach.xml" value="0.1" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_them_phieumuon.xml" value="0.264" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_update.xml" value="0.10400000000000001" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_update_loaisach.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_dang_xuat.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_doanh_thu.xml" value="0.176" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_doi_mat_khau.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_loai_sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_quan_ly_sach.xml" value="0.1" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_sach.xml" value="0.1" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_thanh_vien.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_thong_ke_sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_thu_thu.xml" value="0.18840579710144928" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/iteptop_row.xml" value="0.253125" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/loai_sach_row.xml" value="0.1" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/phieumuon_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/row_phieumuon.xml" value="0.3768844221105528" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/sach_item_view.xml" value="0.264" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/sach_row.xml" value="0.264" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/thanh_vien_item_spinner.xml" value="0.23177083333333334" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/thanh_vien_row.xml" value="0.1" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/thong_ke_top10_row.xml" value="0.264" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/thu_thu_row.xml" value="0.4" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/layout/thuthu_spinner_item.xml" value="0.264" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau_android_Mobile/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/MOB204_DuAnMau_huydqph14281/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_add_sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/MOB204_DuAnMau_huydqph14281/DuAnMau_android_Mobile/app/src/main/res/layout/dialog_add_thuthu.xml" value="0.25416666666666665" />
+        <entry key="..\:/MOB204_DuAnMau_huydqph14281/DuAnMau_android_Mobile/app/src/main/res/layout/fragment_thu_thu.xml" value="0.25416666666666665" />
+        <entry key="..\:/MOB204_DuAnMau_huydqph14281/DuAnMau_android_Mobile/app/src/main/res/layout/loai_sach_row.xml" value="0.1598731884057971" />
+        <entry key="..\:/MOB204_DuAnMau_huydqph14281/DuAnMau_android_Mobile/app/src/main/res/layout/sach_row.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

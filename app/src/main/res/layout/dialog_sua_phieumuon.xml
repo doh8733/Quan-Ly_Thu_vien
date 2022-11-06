@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+    <Spinner
+        android:gravity="center"
+        android:id="@+id/spnsuaMaThuThu"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/spinner"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:layout_gravity="center"
+        android:id="@+id/spnSuaMaTV"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/spinner"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinerSuaMaSach"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/spinner"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edSuangay"/>
+
+    <!--    <TextView-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/tvNgay"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/tvtienThue"/>-->
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="37dp"
+        android:text="Da Tra Sach"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edngay" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:text="Sua"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnCancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dong"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

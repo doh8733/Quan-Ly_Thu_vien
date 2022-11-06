@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/bookicon" />
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/edSuaIDSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        style="@style/TextAppearance.Compat.Notification"
+        android:inputType="textPersonName"
+        android:hint="ID"/>
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/edSuaTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ten Sach"/>
+
+    <EditText
+        android:layout_marginTop="12dp"
+        android:id="@+id/edSuaGiathue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="gia thue"
+        />
+    <Spinner
+        android:layout_marginTop="8dp"
+        android:layout_gravity="right"
+        android:id="@+id/spnSuaSach"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSua"
+        android:text="Them"/>
+    <Button
+        android:id="@+id/btnDong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dong" />
+
+</LinearLayout>

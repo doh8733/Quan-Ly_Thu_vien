@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DuAnMau_android_Mobile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_QuanlyPhieuMuon">Quan Ly Phieu Muon</string>
+    <string name="menu_LoaiSach">Quan Ly Loai Sach</string>
+
+    <string name="menu_Sach">Quan Ly Sach</string>
+    <string name="menu_thanhVien">Quan Ly Thanh Vien</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_thongKeSach">10 Dau Sach Muon Nhieu Nhat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_doanhThu">Doanh Thu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_Thuthu">ThuThu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_doiMatKhau">Doi Mat Khau</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_DangXuat">Dang Xuat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+</resources>

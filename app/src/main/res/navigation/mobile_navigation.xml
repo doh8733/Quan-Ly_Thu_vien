@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_PhieuMuon">
+
+    <fragment
+        android:id="@+id/nav_PhieuMuon"
+        android:name="com.example.duanmau_android_mobile.Fragment.PhieuMuonFragment"
+        android:label="@string/menu_QuanlyPhieuMuon"
+        tools:layout="@layout/phieumuon_blank" />
+    <fragment
+        android:id="@+id/nav_loaiSach"
+        android:name="com.example.duanmau_android_mobile.Fragment.LoaiSachFragment"
+        android:label="fragment_loai_sach"
+        tools:layout="@layout/fragment_loai_sach" />
+    <fragment
+        android:id="@+id/nav_quanLySach"
+        android:name="com.example.duanmau_android_mobile.Fragment.QuanLySachFragment"
+        android:label="fragment_quan_ly_sach"
+        tools:layout="@layout/fragment_quan_ly_sach" />
+    <fragment
+        android:id="@+id/nav_thanhVien"
+        android:name="com.example.duanmau_android_mobile.Fragment.ThanhVienFragment"
+        android:label="fragment_thanh_vien"
+        tools:layout="@layout/fragment_thanh_vien" />
+    <fragment
+        android:id="@+id/nav_thongKeSach"
+        android:name="com.example.duanmau_android_mobile.Fragment.ThongKeSachFragment"
+        android:label="fragment_thong_ke_sach"
+        tools:layout="@layout/fragment_thong_ke_sach" />
+    <fragment
+        android:id="@+id/nav_doanhThu"
+        android:name="com.example.duanmau_android_mobile.Fragment.DoanhThuFragment"
+        android:label="fragment_doanh_thu"
+        tools:layout="@layout/fragment_doanh_thu" />
+    <fragment
+        android:id="@+id/nav_ThuThu"
+        android:name="com.example.duanmau_android_mobile.Fragment.ThuThuFragment"
+        android:label="fragment_thu_thu"
+        tools:layout="@layout/fragment_thu_thu" />
+    <fragment
+        android:id="@+id/nav_DoiMatKhau"
+        android:name="com.example.duanmau_android_mobile.Fragment.DoiMatKhauFragment"
+        android:label="fragment_doi_mat_khau"
+        tools:layout="@layout/fragment_doi_mat_khau" />
+
+
+</navigation>

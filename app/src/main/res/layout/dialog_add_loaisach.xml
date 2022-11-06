@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/cateicon" />
+
+    <EditText
+        android:layout_marginTop="32dp"
+        android:id="@+id/edIDLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="id loai sach" />
+
+    <EditText
+
+        android:layout_marginTop="32dp"
+        android:id="@+id/edTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ten loai sach" />
+
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddLoaiSach"
+        android:text="Them"/>
+    <Button
+        android:id="@+id/btnDongLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dong" />
+
+</LinearLayout>
